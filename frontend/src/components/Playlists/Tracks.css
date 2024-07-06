@@ -1,0 +1,13 @@
+.container input[type="text"] {
+    width: 250px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .container input[type="text"]::placeholder {
+    color: #ccc;
+  }

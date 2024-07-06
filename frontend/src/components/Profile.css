@@ -1,0 +1,42 @@
+body {
+  background: url("https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.whitebg {
+  background: white;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(62, 73, 69);
+  opacity: 80%;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 10px;
+  font-size: 2.5rem;
+}
+
+h4 {
+  margin: 10px;
+  font-size: 1.5rem;
+}
+
+p {
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+.ProfilePic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
